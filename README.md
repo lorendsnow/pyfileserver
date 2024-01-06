@@ -1,0 +1,1 @@
+Simple server and client to send files from the client machine to the server machine.

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyfileserver"
+version = "0.1.0"
+description = "Server and client modules to send files over a socket connection."
+authors = ["Loren Snow <lorendsnow@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
