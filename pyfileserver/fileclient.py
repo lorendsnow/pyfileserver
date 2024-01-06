@@ -25,8 +25,8 @@ class FileClient:
     def __init__(
         self,
         basepath: str | os.PathLike,
-        host: str = "192.168.50.200",
-        port: int = 5001,
+        host: str,
+        port: int,
     ) -> None:
         self.basepath = Path(basepath)
         self._address = host, port
