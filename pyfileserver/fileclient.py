@@ -17,7 +17,7 @@ class FileClient:
 
     host: str - "localhost" or ip address of FileServer (AF_INET).
 
-    port: int - Port FileServer is listening on.
+    port: int - Port that FileServer is listening on.
 
     encode_fmt: str - Encoding parameter passed to struct.pack() to encode the filesize.
     """
